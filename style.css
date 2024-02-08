@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    height: calc(100% - 60px); /* Altura total de la ventana menos el header y el footer */
+  }
+  
+  .window {
+    width: 33.33%; /* Cada ventana ocupará un tercio del ancho */
+    height: 100%;
+    overflow-y: auto; /* Agrega scroll si es necesario */
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc; /* Línea divisoria entre ventanas */
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 80%;
+    resize: none; /* Evita que se redimensione el textarea */
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

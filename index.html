@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organizador Personal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Organizador Personal</h1>
+  </header>
+  <main>
+    <div class="window" id="tasksWindow">
+      <h2>Lista de Tareas</h2>
+      <ul id="taskList">
+        <!-- Aquí se mostrarán las tareas -->
+      </ul>
+      <input type="text" id="taskInput" placeholder="Agregar nueva tarea">
+      <button id="addTaskBtn">Agregar tarea</button>
+    </div>
+    <div class="window" id="notesWindow">
+      <h2>Notas</h2>
+      <textarea id="noteInput" placeholder="Escribe una nota"></textarea>
+      <button id="addNoteBtn">Agregar nota</button>
+    </div>
+    <div class="window" id="calendarWindow">
+      <h2>Calendario</h2>
+      <!-- Aquí se mostrará el calendario -->
+      <div id="calendarContainer">
+        <!-- El calendario se generará dinámicamente con JavaScript -->
+      </div>
+      <button id="createEventBtn">Crear Evento</button>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Organizador Personal</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
